@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+#
+#
+
+print "Hi!\n";
+
+while(<>) {
+  print " ∴ $2\n" if /(^\d*) (.*)$/;
+}
